@@ -1,0 +1,89 @@
+body{
+    color:purple;
+}
+
+h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 60px;
+}
+
+h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 48px;
+}
+
+h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+}
+
+h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 275;
+font-size: 30px;
+line-height: 30px;
+}
+
+p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 275;
+font-size: 18px;
+line-height: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template: 
+    "a a" 1fr
+    "b c" 1fr
+    ;
+    gap: 5px;
+    width: 80%;
+    margin:auto;
+}
+
+#defualt-button{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    color:black;
+}
+
+@media screen and (max-width: 450px){
+    .grid{
+        display: grid;
+        grid-template: 
+        "a" 1fr
+        "b" 1fr
+        "c" 1fr
+        ;
+        gap: 5px;
+        width: 80%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width: 1900px) and (min-width: 1080px){
+    .grid{
+        display: grid;
+        grid-template: 
+        "a" 1fr
+        "b" 1fr
+        "c" 1fr
+        ;
+        gap: 5px;
+        width: 80%;
+        margin:auto;
+    }
+}
